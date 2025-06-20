@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Incredible India - Cultural Dances</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Incredible India</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#dances">Dances</a></li>
+                <li><a href="#culture">Culture</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header class="hero" id="home">
+        <h1>Incredible India</h1>
+        <p>Explore the Vibrant Cultural Dances Across Indian States</p>
+    </header>
+    <div class="sparkle-container">
+        <div class="sparkle sparkle1"></div>
+        <div class="sparkle sparkle2"></div>
+        <div class="sparkle sparkle3"></div>
+    </div>
+    <!-- Search Bar -->
+    <div class="search-container">
+        <input type="text" placeholder="Search dances, states, or culture..." class="search-box">
+    </div>
+
+    <main class="grid" id="dances">
+        <!-- Andhra Pradesh -->
+        <div class="card">
+            <img src="https://www.hercircle.in/hcm/Engage/D/B0C97C19-E1C3-4CE6-B90F-9E68C775FB1F.JPG" alt="Kuchipudi" />
+            <div class="dance-card">
+                <h2>Andhra Pradesh</h2>
+                <p><strong>Classical:</strong> Kuchipudi</p>
+                <p><strong>Folk:</strong> Dhimsa, Kolattam, Butta Bommalu</p>
+            </div>
+        </div>
+
+        <!-- Tamil Nadu -->
+        <div class="card">
+            <img src="https://i.pinimg.com/originals/5d/f3/83/5df383f991d76b2390c6dde7ab1a221e.jpg" alt="Bharatanatyam" />
+            <div class="dance-card">
+                <h2>Tamil Nadu</h2>
+                <p><strong>Classical:</strong> Bharatanatyam</p>
+                <p><strong>Folk:</strong> Karagam, Kummi, Kolattam</p>
+            </div>
+        </div>
+
+        <!-- Kerala -->
+        <div class="card">
+            <img src="https://kerala.me/wp-content/uploads/2015/11/Kathakali.jpg" alt="Kathakali" />
+            <div class="dance-card">
+                <h2>Kerala</h2>
+                <p><strong>Classical:</strong> Kathakali, Mohiniyattam</p>
+                <p><strong>Folk:</strong> Ottamthullal, Thirayattam</p>
+            </div>
+        </div>
+
+        <!-- Uttar Pradesh -->
+        <div class="card">
+            <img src="https://www.gosahin.com/go/p/c/1520457909_Kathak2.jpg" alt="Kathak" />
+            <div class="dance-card">
+                <h2>Uttar Pradesh</h2>
+                <p><strong>Classical:</strong> Kathak</p>
+                <p><strong>Folk:</strong> Raslila, Charkula</p>
+            </div>
+        </div>
+
+        <!-- Odisha -->
+        <div class="card">
+            <img src="https://utkalodisha.com/wp-content/uploads/Odissi-4.jpg" alt="Odissi" />
+            <div class="dance-card">
+                <h2>Odisha</h2>
+                <p><strong>Classical:</strong> Odissi</p>
+                <p><strong>Folk:</strong> Chhau, Ghumura, Dalkhai</p>
+            </div>
+        </div>
+
+        <!-- Manipur -->
+        <div class="card">
+            <img src="https://c8.alamy.com/comp/X3N6G3/manipuri-dancers-X3N6G3.jpg" alt="Manipuri" />
+            <div class="dance-card">
+                <h2>Manipur</h2>
+                <p><strong>Classical:</strong> Manipuri</p>
+                <p><strong>Folk:</strong> Lai Haraoba, Dhol Cholom</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://th.bing.com/th/id/R.fb40c5cf7470662ef448632f89e47da7?rik=PluvthAOfvwvLw&riu=http%3a%2f%2ffarm5.staticflickr.com%2f4083%2f5083331177_e70cdd4aab_z.jpg&ehk=duKkpRWmsZLjF9I3ccVHaZHS0Qyf9rQpHOmjujQuRc8%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1" alt="Sattriya Dance" />
+            <div class="dance-card">
+                <h2>Assam</h2>
+                <p><strong>Classical:</strong> Sattriya</p>
+                <p><strong>Folk:</strong> Bihu, Bagurumba</p>
+                <p>Sattriya is a classical dance form from Assam, rooted in Vaishnavite monasteries (Sattras), and combines devotion, storytelling, and grace.</p>
+            </div>
+        </div>
+    </main>
+    <!-- Parallax Visual Section -->
+    <section class="parallax">
+        <div class="parallax-text">
+            <h2>Indian Cultural Heritage</h2>
+            <p>Timeless traditions. Endless colors. A civilization of unity in diversity.</p>
+        </div>
+    </section>
+    <section id="culture" class="culture">
+        <h2 style="text-align: center; color: #f1c40f;">Indian Cultural Heritage</h2>
+        <p style="text-align: center; max-width: 700px; margin: 1rem auto; color: #f1f2f6;">
+            India’s culture includes its languages, cuisine, attire, festivals, music, and art forms like dance and architecture. It is a living example of unity in diversity.
+        </p>
+
+        <div class="culture-grid">
+            <div class="culture-card">
+                <h3>🎉 Festivals</h3>
+                <p>India celebrates a range of festivals like Diwali, Eid, Pongal, Holi, and Onam — each with its own vibrant rituals.</p>
+            </div>
+            <div class="culture-card">
+                <h3>🍛 Cuisine</h3>
+                <p>From spicy curries of the south to the rich sweets of the north, India’s regional food is as diverse as its people.</p>
+            </div>
+            <div class="culture-card">
+                <h3>🎶 Music & Instruments</h3>
+                <p>Classical forms like Hindustani and Carnatic blend with instruments like sitar, tabla, veena, and dhol.</p>
+            </div>
+            <div class="culture-card">
+                <h3>👘 Traditional Clothing</h3>
+                <p>Each region wears distinct attire — saris, lehengas, dhotis, and turbans — often adorned with handwoven fabrics.</p>
+            </div>
+            <div class="culture-card">
+                <h3>🗣️ Languages</h3>
+                <p>India has 22 official languages and hundreds of dialects, reflecting its multi-ethnic identity and history.</p>
+            </div>
+            <div class="culture-card">
+                <h3>🏛️ Architecture</h3>
+                <p>From ancient temples and Mughal forts to colonial buildings, India's structures are living museums of its legacy.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Unity in Diversity Dance Grid -->
+    <section class="india-map">
+        <h2 class="section-title">Indian Classical Dances</h2>
+        <p class="subtitle">Explore India's traditional dances state by state</p>
+
+        <div class="state-grid">
+            <div class="state-card">
+                <h3>Punjab</h3>
+                <p>Bhangra</p>
+            </div>
+            <div class="state-card">
+                <h3>Odisha</h3>
+                <p>Odissi</p>
+            </div>
+            <div class="state-card">
+                <h3>Kerala</h3>
+                <p>Mohiniyattam</p>
+            </div>
+            <div class="state-card">
+                <h3>Assam</h3>
+                <p>Sattriya</p>
+            </div>
+            <div class="state-card">
+                <h3>Tamil Nadu</h3>
+                <p>Bharatanatyam</p>
+            </div>
+            <div class="state-card">
+                <h3>Maharashtra</h3>
+                <p>Lavani</p>
+            </div>
+
+            <!-- Add more states/dances here -->
+        </div>
+    </section>
+    <section class="quote fade-in-up">
+        <blockquote>“A nation's culture resides in the hearts and in the soul of its people.”</blockquote>
+        <cite>– Mahatma Gandhi</cite>
+    </section>
+    <footer class="footer" id="contact">
+        <p>&copy; 2025 Incredible India. Designed with love 💛 for cultural harmony.</p>
+    </footer>
+    <img src="peacock.png" class="float-icon" alt="Peacock" width="60">
+</body>
+
+</html>
